@@ -1,0 +1,11 @@
+{
+  "name": "forgetmenot",
+  "version": "1.0.0",
+  "description": "Sends reminders for calendar events at the time of the event",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stephen Gladney",
+  "license": "ISC"
+}
