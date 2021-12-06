@@ -5,8 +5,8 @@ import { Login } from "./components/Login/Login"
 import { Dashboard } from "./components/Dashboard/Dashboard"
 
 function App() {
-  const [isLoggedIn, setIsLoggedIn] = useState(false)
   const [token, setToken] = useState(getCookie("fmntoken"))
+  const [isLoggedIn, setIsLoggedIn] = useState(token ? true : false)
 
   return (
     <div className="App flex flex-col bg-gray-800 h-screen font-sans">

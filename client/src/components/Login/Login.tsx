@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import { setCookie } from "../../lib/cookies"
 
 export function Login({}) {
   return (
@@ -23,7 +24,7 @@ export function Login({}) {
             type="password"
           ></input>
         </div>
-        <button className="mt-8 rounded py-2 w-full bg-indigo-500">
+        <button className="mt-8 rounded py-3 w-full bg-indigo-500">
           Login
         </button>
       </div>
