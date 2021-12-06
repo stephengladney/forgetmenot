@@ -1,7 +1,8 @@
 .DS_Store
 node_modules
+.env
 
 # server
-
+server/build
 
 # client
