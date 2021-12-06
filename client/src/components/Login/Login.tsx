@@ -14,7 +14,7 @@ export function Login({}) {
           <input
             className="w-full bg-gray-700 p-3 mt-1 rounded"
             name="username"
-          ></input>
+          />
         </div>
         <div className="mt-6 flex flex-col items-start">
           <label htmlFor="password">Password</label>
@@ -22,7 +22,7 @@ export function Login({}) {
             className="w-full bg-gray-700 p-3 mt-1 rounded"
             name="password"
             type="password"
-          ></input>
+          />
         </div>
         <button className="mt-8 rounded py-3 w-full bg-indigo-500">
           Login
